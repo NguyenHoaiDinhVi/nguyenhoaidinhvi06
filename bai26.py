@@ -10,8 +10,8 @@ b = float(input("Nhập số b= "))
 c = float(input("Nhập số c= "))
 if a > b:
     a, b = b, a  
-if b > c:
-    b, c = c, b  
-if a > b:
-    a, b = b, a   
+if a>c:
+    a, c = c, a
+if b>c:
+    c, b = b, c  
 print("Ba số theo thứ tự tăng dần là: {}, {}, {}".format(a,b,c))
